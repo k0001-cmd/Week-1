@@ -22,3 +22,12 @@ int main()
 return 0;
 
 }
+
+
+Output : Address of a = 00000018275FFDCC
+Address of p = 00000018275FFDC0
+Address of p = 00000018275FFDC0
+Address of q = 00000018275FFDB8
+Value of a = 32758
+Value of a = 32758
+Value of p = 32758
