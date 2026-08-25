@@ -15,6 +15,9 @@ void selectionSort(int array[], int size)
             array[min_idx]=array[step];
             array[step]=temp;
         }
+        for(int i=0;i<size;i++)
+    printf("%d\t",array[i]);
+    printf("\n");
     }
 }
 
