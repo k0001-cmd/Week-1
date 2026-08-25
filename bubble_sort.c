@@ -2,8 +2,11 @@
 
 void bubbleSort(int array[],int size)
 {
+    
     for(int step = 0; step<size-1;++step)
     {
+        int flag=0;
+        
         for(int i=0;i<size-step-1;++i)
         {
             if(array[i]>array[i+1])
@@ -11,8 +14,16 @@ void bubbleSort(int array[],int size)
                 int temp = array[i];
                 array[i]=array[i+1];
                 array[i+1]=temp;
+                flag++;
             }
         }
+        
+        printf("PASS : ");
+        for(int i=0;i<size;i++)
+        printf("%d\t",array[i]);
+        printf("\n");
+        if(flag==0)
+        break;
     }
 }
 
