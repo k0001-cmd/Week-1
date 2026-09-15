@@ -1,0 +1,11 @@
+questions
+
+Implement Stack using Array
+Implement Queue using Array
+Assignment 3
+
+Take an array of 9 elements. try searching 1 element. If it is present right in the middle, return the index. Sort the left side in descending order using the sorting that will work as a worst case scenario. And sort the right side using that algorithm which will work best in descending order.
+If it is not found in the middle inside that element in the middle,
+
+
+2 3 6 8 10 12 14 16 18
